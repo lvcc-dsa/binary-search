@@ -47,7 +47,7 @@ public class BinarySearch {
 
 	static int binarySearch(int[] numbers, int find) { // note: @param array[], search
 
-		int left, right, middle;
+		int left=0, right=0, middle;
 		// TODO: initialize value for left and right
 		
 		while (left <= right) {
@@ -63,11 +63,4 @@ public class BinarySearch {
 		return -1; // note: exit loop if not found
 
 	}
-	
-	static int bubbleSort(int[] arr) {
-
-		// TODO: sort the random array first before searching
-
-	}
-
 }
